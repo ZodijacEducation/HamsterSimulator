@@ -1,0 +1,40 @@
+/*imperative program*/public int koernerimmaul = 0;
+
+void main() {
+    kornda();
+    action();
+}
+
+void kornda(){
+	while(kornDa()){
+		nimm();
+		koernerimmaul += 1;
+	}
+	
+}
+
+void action(){
+	if(koernerimmaul == 0){
+			
+	
+	}	
+								
+	if(koernerimmaul == 1){
+		gib();
+		linksUm();
+	}
+
+	if(koernerimmaul == 2){
+		gib();
+		gib();
+		rechtsUm();
+	
+	}
+}
+
+void rechtsUm(){
+	linksUm();
+	linksUm();
+	linksUm();
+
+}
